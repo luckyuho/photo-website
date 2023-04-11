@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.photowebsiteapp {
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Rubik Bubbles", cursive;
+  font-family: "Ubuntu Mono", monospace;
+  width: 100vw;
+  background-color: blanchedalmond;
+}
+
+.photowebsiteapp button {
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Rubik Bubbles", cursive;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.photowebsiteapp a {
+  text-decoration: none;
+  color: black;
+}
+
+.photowebsiteapp ul {
+  list-style-type: none;
+}
+
+.photowebsiteapp .morePicture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem;
+}
+
+.photowebsiteapp .morePicture button {
+  padding: 0.25rem 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background-color: maroon;
+  color: white;
+  cursor: pointer;
+}
+
+.photowebsiteapp nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #dc5a09;
+  padding: 0.5rem;
+  color: white;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Rubik Bubbles", cursive;
+}
+
+.photowebsiteapp nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 3rem;
+}
+
+.photowebsiteapp nav ul li {
+  padding: 0.5rem 1rem;
+}
+
+.photowebsiteapp nav ul li a {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.photowebsiteapp .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 0rem;
+}
+
+.photowebsiteapp .search input,
+.photowebsiteapp .search button {
+  font-size: 2vw;
+  padding: 0.25rem;
+  border: 3px solid #f2b885;
+}
+
+.photowebsiteapp .search button {
+  margin: 0.5rem 0rem;
+  padding: 0.25rem;
+  background-color: #9a4f16;
+  color: white;
+  cursor: pointer;
+}
+
+.photowebsiteapp .searchitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem 0rem;
+  font-size: 1.5rem;
+}
+
+.photowebsiteapp footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  background-color: #f4cda7;
+}
+
+.photowebsiteapp .pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.photowebsiteapp .pictures .picture {
+  padding: 1rem;
+  width: 400px;
+}
+
+.photowebsiteapp .pictures .picture .imageContainer {
+  overflow: hidden;
+  height: 40vh;
+}
+
+.photowebsiteapp .pictures .picture .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.photowebsiteapp .pictures .picture .imageContainer img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+/*# sourceMappingURL=style.css.map */

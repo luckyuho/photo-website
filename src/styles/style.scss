@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.photowebsiteapp {
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Rubik Bubbles", cursive;
+  font-family: "Ubuntu Mono", monospace;
+  width: 100vw;
+
+  background-color: blanchedalmond;
+
+  button {
+    font-family: "Noto Sans TC", sans-serif;
+    font-family: "Rubik Bubbles", cursive;
+    font-family: "Ubuntu Mono", monospace;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .morePicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+
+    button {
+      padding: 0.25rem 0.5rem;
+      font-size: 2rem;
+      border: none;
+      background-color: maroon;
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  @import "./nav";
+  @import "./search";
+  @import "./footer";
+  @import "./picture";
+}

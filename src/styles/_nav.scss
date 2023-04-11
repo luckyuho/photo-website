@@ -1,0 +1,24 @@
+// .photowebsiteapp {
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(220, 90, 9);
+  padding: 0.5rem;
+  color: white;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Rubik Bubbles", cursive;
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    li {
+      padding: 0.5rem 1rem;
+      a {
+        color: white;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+// }
